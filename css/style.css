@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #c766ff;
+    background-color: #ffffff;
     margin: 0px;
     padding: 30px;
 }
@@ -27,6 +27,7 @@ h1 {
 button {   
     color: white; 
     padding: 12px 25px;
+
     font-size: 18px;
     border: none;
     border-radius: 8px;
@@ -43,7 +44,7 @@ button:hover {
 #gameArea {
     width:600px;
     height: 400px;
-    background-color: white;
+    background-color: rgb(2, 2, 2);
     border: 6px ridge #ff5bdc;
     margin: auto;
     position: relative;
@@ -53,7 +54,7 @@ button:hover {
 #target { 
     width: 60px;
     height: 60px;
-    background-color: #cc6060;
+    background-color: #0609db;
     border-radius: 10px;
     position: absolute;
      cursor: pointer;
@@ -63,6 +64,6 @@ button:hover {
 #message {
     font-size: 24px;
     font-weight: bold;
-    color:#c766ff;
+    color:#b660e7;
 }
 
