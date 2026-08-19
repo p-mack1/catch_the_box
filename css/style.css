@@ -1,69 +1,68 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #ffffff;
-    margin: 0px;
-    padding: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 30px;
 }
 
 .game-container {
-    max-width: 700px;
-    margin: auto;
+  max-width: 700px;
+  margin: auto;
 }
 
 h1 {
-    margin-bottom: 10px;
-    color: white;
+  margin-bottom: 10px;
+  color: white;
 }
 
 .game-info {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    font-size: 22px;
-    font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
-button {   
-    color: white; 
-    padding: 12px 25px;
+button {
+  color: white;
+  padding: 12px 25px;
 
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    background-color: #8c00ff;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: #8c00ff;
 }
 
 button:hover {
-    transform: scale(1.05);
-    background-color: #ff5bdc;
+  transform: scale(1.05);
+  background-color: #ff5bdc;
 }
 
 #gameArea {
-    width:600px;
-    height: 400px;
-    background-color: rgb(2, 2, 2);
-    border: 6px ridge #ff5bdc;
-    margin: auto;
-    position: relative;
-    overflow: hidden;
+  width: 600px;
+  height: 400px;
+  background-color: rgb(2, 2, 2);
+  border: 6px ridge #ff5bdc;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
 }
 
-#target { 
-    width: 60px;
-    height: 60px;
-    background-color: #0609db;
-    border-radius: 10px;
-    position: absolute;
-     cursor: pointer;
-     display: none;
+#target {
+  width: 60px;
+  height: 60px;
+  background-color: #0609db;
+  border-radius: 10px;
+  position: absolute;
+  cursor: pointer;
+  display: none;
 }
 
 #message {
-    font-size: 24px;
-    font-weight: bold;
-    color:#b660e7;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b660e7;
 }
-
